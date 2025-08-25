@@ -207,3 +207,18 @@ marimo/_lsp/
 __marimo__/
 .DS_Store
 drafts/.DS_Store
+
+# Project-specific ignores
+
+# Data (keep only tiny sample CSVs if needed)
+data/
+*.csv
+*.pkl
+
+# Generated plots / figures
+*.png
+*.jpg
+*.jpeg
+
+# MacOS cruft
+.DS_Store
