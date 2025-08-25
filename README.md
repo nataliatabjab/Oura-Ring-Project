@@ -73,7 +73,6 @@ python visualize_output.py --input model_predictions.csv --outdir viz/ --html
 
 ## Future Work
 - Calibrated probabilities (Platt/Isotonic).
-- Per‑class decision thresholds tuned for your use‑case.
 - Rolling‑window re‑training & drift checks.
 - Add wearable context (tags: illness, travel) as features.
 
